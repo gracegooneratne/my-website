@@ -52,7 +52,7 @@ const About = () => {
               }}
             >
               <ImageReveal
-                src="/megan-ruth-8ZxCjA3DTrM-unsplash.jpg"
+                src="/grace.jpg"
                 alt="Grace in her studio"
                 className="h-full w-full object-cover"
                 style={{ minHeight: "500px", maxHeight: "700px" }}
@@ -84,17 +84,9 @@ const About = () => {
               {/* Bio Text */}
               <div className="space-y-5 text-sm leading-relaxed text-foreground/80">
                 <p>
-                  Born in Lyon and now based in Paris, I've dedicated the last fifteen years to exploring the intersection of classical technique and contemporary vision. My journey began at the École des Beaux-Arts, where I fell in love with the Old Masters.
+                  I was born in SoCal and am now based in New York city.
                 </p>
-                <p>
-                  I paint what moves me—the way morning light falls through a window, the quiet dignity of a weathered face, the vibrant chaos of a flower market. Each canvas is an invitation to pause and notice the beauty we often overlook.
-                </p>
-                <p>
-                  My work lives in private collections across Europe, the United States, and Asia. I've been fortunate to collaborate with prestigious galleries and institutions who share my belief that art should stir something deep within us.
-                </p>
-                <p>
-                  When I'm not in the studio, you'll find me wandering through museums, tending to my garden in Montmartre, or hunting for the perfect croissant. I believe the best paintings come from a life fully lived.
-                </p>
+               
               </div>
             </div>
           </div>
