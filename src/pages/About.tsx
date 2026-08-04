@@ -5,21 +5,6 @@ import ImageReveal from "@/components/ImageReveal";
 
 const ARTIST_EMAIL = "gracegooneratne@berkeley.edu";
 
-const clients = [
-  "Galerie Perrotin",
-  "Château de Versailles",
-  "Musée d'Orsay",
-  "Fondation Louis Vuitton",
-  "Christie's Paris",
-  "Sotheby's",
-  "Artcurial",
-  "Galerie Templon",
-  "Kamel Mennour",
-  "Thaddaeus Ropac",
-  "Private Collections",
-  "Hôtel Le Bristol",
-];
-
 const About = () => {
   const copyEmail = () => {
     navigator.clipboard.writeText(ARTIST_EMAIL);
@@ -88,37 +73,6 @@ const About = () => {
                 </p>
                
               </div>
-            </div>
-          </div>
-
-          {/* Clients Section */}
-          <div 
-            className="mt-16"
-            style={{
-              opacity: 0,
-              animation: "staggerFadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards",
-              animationDelay: "300ms"
-            }}
-          >
-            <h2 className="mb-8 font-display text-lg font-medium tracking-tight text-foreground">
-              Exhibitions & Collections
-            </h2>
-            
-            {/* Clients Grid */}
-            <div className="grid grid-cols-2 gap-x-8 gap-y-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
-              {clients.map((client, index) => (
-                <span
-                  key={index}
-                  className="text-sm text-muted-foreground transition-colors duration-300 hover:text-foreground link-underline w-fit"
-                  style={{
-                    opacity: 0,
-                    animation: "staggerFadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards",
-                    animationDelay: `${400 + index * 50}ms`
-                  }}
-                >
-                  {client}
-                </span>
-              ))}
             </div>
           </div>
         </div>
